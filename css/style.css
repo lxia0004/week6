@@ -1,0 +1,22 @@
+body{
+    background-color: lightblue;
+}
+
+table{
+    width:50%
+}
+table th{
+    background-color:azure;
+    color:blueviolet;
+}
+table tr:nth-child(even){
+background-color: brown;
+}
+table tr:nth-child(odd){
+background-color: coral;
+
+
+}
+table,th,td{
+    border:1px solid black;
+}
